@@ -26,7 +26,7 @@ class Produto {
 }
 
 class Caixa {
-    private Map<Integer, Integer> notas = new TreeMap<>(Collections.reverseOrder()); // notas em ordem decrescente
+    private Map<Integer, Integer> notas = new TreeMap<>(Collections.reverseOrder()); 
     private int[] tiposNotas = {50, 20, 10};
 
     public Caixa() {
